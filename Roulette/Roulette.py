@@ -21,7 +21,8 @@ def playRoulette(game, numSpins, pocket, bet, toPrint):
         game.spin() 
         totPocket += game.betPocket(pocket, bet)
     if toPrint: 
-        print(numSpins, 'spins of', game) 
+        print(numSpins, 'spins of'),
+        print(game)
         print('Expected return betting', pocket, '=', str(100*totPocket/numSpins) + '%\n') 
     return (totPocket / numSpins)
 
