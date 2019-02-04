@@ -1,18 +1,23 @@
-Python 2.7
+Python 3.6
 
 Result: 
 
 ```
-(100, 'spins of') Fair Roulette
-('Expected return betting', 2, '=', '-28%\n')
-(100, 'spins of') Fair Roulette
-('Expected return betting', 2, '=', '8%\n')
-(100, 'spins of') Fair Roulette
-('Expected return betting', 2, '=', '8%\n')
-(1000000, 'spins of') Fair Roulette
-('Expected return betting', 2, '=', '-2%\n')
-(1000000, 'spins of') Fair Roulette
-('Expected return betting', 2, '=', '-1%\n')
-(1000000, 'spins of') Fair Roulette
-('Expected return betting', 2, '=', '1%\n')
+100 spins of Fair Roulette
+Expected return betting 2 = 44.0%
+
+100 spins of Fair Roulette
+Expected return betting 2 = -100.0%
+
+100 spins of Fair Roulette
+Expected return betting 2 = 116.0%
+
+1000000 spins of Fair Roulette
+Expected return betting 2 = -0.5032%
+
+1000000 spins of Fair Roulette
+Expected return betting 2 = 0.4904%
+
+1000000 spins of Fair Roulette
+Expected return betting 2 = 0.6128%
 ```
